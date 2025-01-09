@@ -15,7 +15,7 @@ function SelectedSales() {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    document.title = "Nike Selecting Image";
+    document.title = "Nike Selecting Sales Image";
 
     return () => {
       document.title = "Nike Clone";
