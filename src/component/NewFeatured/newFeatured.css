@@ -1,0 +1,280 @@
+.filter-height {
+  min-height: 100vh;
+  border-top: 0.5px solid rgb(231, 231, 231);
+}
+
+.flex-item-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4rem;
+  height: 70px;
+  align-items: center;
+}
+
+.fillter-btnshortBy {
+  display: flex;
+  cursor: pointer;
+  gap: 20px;
+  font-size: 17px;
+}
+
+.shortBy {
+  display: flex;
+  gap: 5px;
+}
+.featured-p {
+  font-size: 2rem;
+}
+.short-ul {
+  position: absolute;
+  display: none;
+  /* padding-top: 20px; */
+  text-align: right;
+  transition: 0.6s;
+  right: 4rem;
+  line-height: 1.2;
+  background-color: rgb(248, 249, 250);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.short-ul.show {
+  display: block;
+}
+
+#downarrow-short {
+  width: 15px;
+}
+
+.fillter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-size: poppins;
+}
+
+.none-shoes {
+  display: none;
+}
+
+.left-side {
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  /* background: rgb(237, 242, 248); */
+  background-color: white;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  transition: transform 0.6s ease-in-out;
+  transform: translateX(-100%);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.left-side::-webkit-scrollbar {
+  width: 5px;
+}
+
+.left-side::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  /* border: 2px solid #ccc;  */
+}
+
+.left-side::-webkit-scrollbar-thumb:hover {
+  background-color: #696969;
+}
+
+.left-side::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.left-side.active {
+  transform: translateX(0);
+}
+
+.left-side-1 {
+  position: relative;
+}
+
+.gender-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.items-details {
+  border-bottom: 0.5px solid rgb(219, 219, 219);
+  margin-top: 1.5rem;
+}
+
+.closefillter {
+  position: absolute;
+  right: 0.5rem;
+  padding: 3px 8px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  top: 1rem;
+}
+.closefillter i {
+  color: white;
+  padding-top: 5px;
+}
+
+.gender-h4 {
+  padding: 10px;
+}
+
+.gender-li {
+  padding: 10px;
+}
+
+.gender-li-color {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  border: 1px solid rgb(209, 208, 208);
+}
+
+.black {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.white {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.grey {
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+  border-radius: 50%;
+}
+
+.genderHide,
+.kidsHide,
+.shopHide,
+.flex-color,
+.brandHide,
+.sportsHide,
+.TechHide {
+  display: none;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.genderHide.show,
+.kidsHide.show,
+.shopHide.show,
+.colorref.show,
+.brandHide.show,
+.sportsHide.show,
+.TechHide.show {
+  display: block;
+}
+.colorref.show {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+/* gird gallery */
+.grid {
+  max-width: 94vw;
+  margin: auto;
+  border-bottom: 0.5px solid rgb(217, 217, 217);
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.img-container {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* z-index: -1; */
+}
+.grid-img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.info-details {
+  padding: 10px;
+  line-height: 1.8;
+}
+
+.TopTitle {
+  color: rgb(168, 26, 1);
+  font-weight: 600;
+}
+.title{
+    font-weight: 600;
+}
+.offer,.color{
+    color: rgb(90, 89, 89);
+}
+@media (max-width: 850px) {
+  .left-side {
+    width: 100%;
+    transform: translateY(100%);
+    /* z-index: -1; */
+    opacity: 0;
+  }
+  .left-side.active {
+    transform: translateY(0);
+    z-index: 1;
+    opacity: 1;
+  }
+  .flex-item-btn {
+    padding: 10px 3rem;
+}
+
+}
+
+@media (max-width:650px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.filter-span,.short-span{
+  display: none;
+}
+.flex-item-btn {
+  padding: 10px 1.5rem;
+}
+.featured-p {
+  font-size: 20px;
+}
+.info-details {
+  padding: 2px;
+}
+.short-ul {
+right: 1rem;
+}
+}

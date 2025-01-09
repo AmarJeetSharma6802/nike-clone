@@ -1,0 +1,415 @@
+.homepage{
+    text-align: center;
+    min-height: 100vh;
+}
+.nike-details{
+    padding: 10px;
+    background-color: #f2f1f1;
+
+}
+.nike-details-para-second,.nike-details-para-third {
+    font-size: 13px;
+    font-family: 700;
+margin-top: 5px;
+/* margin-bottom: 5px; */
+font-weight: Helvetica, Arial, sans-serif;
+
+}
+.main-img-shoes{
+    max-width: 92vw;
+    margin: 0px auto;
+}
+#shoesimg,#shoesimg2{
+    width: 100%;
+    height: 100%;
+}
+#shoesimg2{
+display: none;
+}
+.leborn-h1{
+    font-size: 4.5rem;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.leborn-para{
+    font-size:17px;
+}
+.main-shop-btn{
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: #f2f1f1;
+}
+.featured-img{
+    /* min-height: 100vh; */
+}
+.featured-max-width{
+    max-width: 92vw;
+    margin: auto;
+    padding-top: 3.5rem;
+}
+.featuredtext{
+    font-size: 22px;
+    font-family: poppins;
+font-weight: 400;
+margin-bottom: 18px;
+}
+.img-three-anchor{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.img-three-anchor-first-img{
+ height: 75%;
+}
+#img-three-anchor-first-img{
+    height: 100%;
+    width: 100%;
+}
+.img-three-anchor-first-img-para{
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 16px; /* Adds space between items */
+    padding: 16px 0; /* Adds padding to avoid scrollbar touching images */
+    width: 100%;
+    scrollbar-width: none; 
+}
+
+.carousel::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit-based browsers */
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust width as needed */
+    scroll-snap-align: start;
+}
+
+.carousel-image {
+    width: 100%;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow */
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.scroll-button.left {
+    left: 10px;
+    overflow: hidden;
+
+}
+
+.scroll-button.right {
+    right: 10px;
+    overflow: hidden;
+
+}
+.caroucel{
+    margin-top: 5rem;
+
+}
+
+.Classics-Spotlight{
+    max-width: 92vw;
+    margin: auto;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+/* trend  */
+
+.trend{
+    max-width: 92vw;
+    margin: auto;
+    min-height: 100vh;
+    margin-top: 4rem;
+}
+.trend-p{
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+#trending-img{
+    width: 100%;
+    height: 100%;
+}
+#trending-img2{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.trending-center{
+    text-align: center;
+    margin-top: 2rem;
+}
+.trending-anchor-h1{
+    font-size: 4rem;
+    font-family: poppins;
+    font-weight: 900;
+}
+.trending-anchor-para-2{
+    font-family: poppins;
+}
+.trending-button{
+    margin-top: 10px;
+    padding: 8px 18px;
+    border-radius: 50px;
+    background-color: black;
+    color: #f2f1f1;
+    font-family: poppins;
+    font-weight: 600;
+
+}
+.carousel-container-2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 16px;
+  }
+  
+  .carousel-2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 16px; 
+    padding: 16px 0; 
+    width: 100%;
+    scrollbar-width: none; 
+    scroll-snap-type: x mandatory;
+    margin-top: 1rem; 
+  }
+  
+  .carousel-2::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .carousel-item-2 {
+    flex: 0 0 auto;
+    width: 500px; /* Adjusted width to prevent large item overflow */
+    scroll-snap-align: start;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-image-2 {
+    width: 100%;
+    border-radius: 0px;
+  }
+  
+  .carousel-text-2 {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    /* right: 16px; */
+    color: white;
+    padding: 8px;
+  }
+  
+  .carousel-p-2 {
+    font-size: 18px;
+    background-color: #f2f1f1;
+    border-radius: 20px;
+    color: black;
+    padding: 8px 12px;
+    margin-top: 10px;
+  }
+  
+  .scroll-button-2 {
+    position: absolute;
+    top: 0px;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    z-index: 111;
+  }
+  
+  .scroll-button-2.left-2 {
+    right: 55px;
+    overflow: hidden;
+    transform: none;
+    background-color: rgb(219, 218, 218);
+}
+
+.scroll-button-2.right-2 {
+    background-color: rgb(214, 213, 213);
+      overflow: hidden;
+    right: 10px;
+    transform: none;
+  }
+  
+  .shop-sports-para{
+    max-width: 92vw;
+    margin: auto;
+    font-size: 25px;
+    font-family: poppins;
+    margin-top: 2rem;
+    font-weight: 400;
+  }
+
+  /* member */
+
+  .carousel-item-3{
+    flex: 0 0 auto;
+    width:450px; /* Adjusted width to prevent large item overflow */
+    scroll-snap-align: start;
+    position: relative;
+    overflow: hidden;
+  }
+  .carousel-text-3 {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    /* right: 16px; */
+    padding: 8px;
+  }
+  .caroucel-text-h3{
+    margin-top: 10px;
+    padding: 8px 12px;
+    color: white;
+    margin: 0;
+  }
+  .carousel-p-3 {
+    font-size: 18px;
+    /* background-color: #f2f1f1; */
+    border-radius: 20px;
+    color: black;
+    padding: 8px 12px;
+    /* margin-top: 10px; */
+    color: white;
+  }
+  .caroucel-btn{
+    background-color: #f2f1f1;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: poppins;
+    /* font-weight: 600; */
+    border: none;
+  }
+
+@media (max-width: 800px) {
+    #shoesimg{
+        display: none;
+    }
+    #shoesimg2{
+        display: block;
+    }
+    .featured-img{
+        min-height: inherit;
+    }
+    .img-three-anchor {
+        display: flex;
+        gap: 10px;
+        height: 100%;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+        /* width: 100vw;   */
+        padding: 0 10px; 
+    }
+
+    .img-three-anchor::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .img-three-anchor-first-img {
+        flex-shrink: 0; 
+        width: calc(100vw - 200px); 
+        scroll-snap-align: center; 
+    }
+
+    #img-three-anchor-first-img {
+        height: auto; 
+        width: 100%;
+        object-fit: cover;
+    }
+    #trending-img{
+        display: none;
+    }
+    #trending-img2{
+        display: block;
+    }
+    .trend {
+        max-width: 92vw;
+        margin: auto;
+        min-height: inherit;
+        margin-top: 4rem;
+    }
+    .leborn-h1 {
+        font-size: 3.5rem;
+    }
+    .trending-anchor-h1 {
+        font-size: 3rem;
+    }    
+   
+}
+@media (min-width: 340px) and (max-width: 500px) {
+    .leborn-h1 {
+        font-size: 2.5rem;
+    } 
+    .carousel-item-3 {
+        flex: 0 0 auto;
+        width: 320px;
+        scroll-snap-align: start;
+        position: relative;
+        overflow: hidden;
+    }  
+    .img-three-anchor-first-img {
+        flex-shrink: 0; 
+        width: calc(100vw - 100px); 
+        scroll-snap-align: center; 
+    } 
+}

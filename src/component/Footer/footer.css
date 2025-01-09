@@ -1,0 +1,188 @@
+.footer-flex {
+  min-height: 50vh;
+  margin-top: 2rem;
+}
+.footer-icon-shoes-clothing-kid {
+  display: flex;
+  justify-content: space-around;
+  max-width: 65vw;
+  margin: auto;
+}
+/* .footer-icon-shoes-clothing-kid-1{
+    padding: 10px;
+} */
+.footer-icon-shoes-clothing-kid-h3 {
+  padding: 10px;
+  font-size: 20px;
+  /* font-family: poppins; */
+  font-weight: 400;
+}
+.footer-icon-shoes-clothing-kid-li {
+  padding: 10px;
+  font-size: 17px;
+}
+.footer-icon-shoes-clothing-kid-a {
+  color: rgb(117, 116, 116);
+  font-family: poppins;
+}
+
+/* footer two */
+.footer-two {
+  max-width: 92vw;
+  margin: auto;
+  border-top: 0.5px solid grey;
+  min-height: 50vh;
+  display: flex;
+  gap: 10rem;
+}
+.footer-reshelCom {
+  margin-top: 4rem;
+}
+.footer-reshelCom-para {
+  padding: 10px;
+  font-weight: 500;
+  font-family: poppins;
+}
+.footer-reshelCom-ul {
+  padding: 8px;
+}
+#downarrow {
+  width: 20px;
+  display: none;
+}
+.arrow-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-reshelCom-li {
+  padding: 5px;
+}
+.footer-reshelCom-a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+  font-family: poppins;
+  font-size: 15px;
+}
+
+/* last footer  */
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 15px;
+    background-color: rgb(247, 246, 246);
+}
+.twobtn-details{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.as{
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: hsl(0, 3%, 8%);
+    color: white;
+}
+.Github{
+    background-color: black;
+    padding: 6px 12px;
+    border:none ;
+    border-radius: 4px;
+}
+.github-a{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.github-a i ,.LinkedIn-a i{
+    color: aliceblue;
+    font-size: 18px;
+    padding-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.LinkedIn{
+    padding: 6px 12px;
+    border:none ;
+    border-radius: 4px;
+    background-color: #00A0DC;
+}
+.LinkedIn-a{
+    color: aliceblue;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+@media (max-width: 850px) {
+  .footer-flex {
+    min-height: 25vh;
+  }
+  .footer-icon-shoes-clothing-kid {
+    flex-direction: column;
+    max-width: inherit;
+    margin: inherit;
+    padding-left: 11px;
+    height: auto;
+  }
+  .icons,
+  .shoes,
+  .clothing,
+  .kids {
+    display: none;
+    transition: 0.6s;
+  }
+  .icons.show,
+  .shoes.show,
+  .clothing.show,
+  .kids.show {
+    display: block;
+  }
+
+  /* footer two */
+  .footer-two {
+    flex-direction: column;
+    gap: inherit;
+    max-width: inherit;
+    margin: inherit;
+    min-height: 40vh;
+  }
+  .footer-reshelCom {
+    height: auto;
+  }
+  #downarrow {
+    display: block;
+  }
+  .resource, .help,.company{
+    display: none;
+    transition: 0.6s;
+  }
+  .resource.show, .help.show,.company.show{
+    display: block;
+  }
+  .footer-reshelCom {
+    margin-top: 0;
+  }
+  .top-space {
+    margin-top: 4rem;
+  }
+  .arrow-p {
+    padding: 10px;
+  }
+
+  .footer-reshelCom-li {
+      padding: 12px;
+  }
+
+ 
+}
+@media (max-width:700px) {
+  .copyright{
+    flex-direction:column ;
+   height: auto;
+   gap: 20px;
+  }
+  
+}
