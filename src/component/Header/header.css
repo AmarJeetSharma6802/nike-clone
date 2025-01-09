@@ -134,6 +134,7 @@ cursor: pointer;
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
+    min-height: 100vh;
 }
 .real-navbar{
     position: fixed;
