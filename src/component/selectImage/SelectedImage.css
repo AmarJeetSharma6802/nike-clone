@@ -77,11 +77,14 @@
   .scroll-btn.left {
     right: 50px;
     font-size: 35px;
+    overflow: hidden;
   }
   
   .scroll-btn.right {
     right: 0px;
-    font-size: 35px
+    font-size: 35px;
+    overflow: hidden;
+
   }
   
   .scroll-btn:hover {
