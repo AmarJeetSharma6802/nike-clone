@@ -224,9 +224,7 @@ gap: 10px;
     width: 100%; 
     overflow: visible;
   }
-  .scroll-container::-webkit-scrollbar{
-    display: block;
-  }
+  
   .center-scroll-image {
     width: 100%;
 }
