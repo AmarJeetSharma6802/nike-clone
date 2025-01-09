@@ -133,6 +133,7 @@ cursor: pointer;
 .real-nav{
     display: block;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 .real-navbar{
     position: fixed;
@@ -145,6 +146,8 @@ cursor: pointer;
     transform: translateX(100%);
     transition: 0.6s;
     z-index: 1111;
+    overflow-y: auto;
+
 }
 .real-navbar.active{
     transform: translateX(0%);
