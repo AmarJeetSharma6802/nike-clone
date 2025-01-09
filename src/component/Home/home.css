@@ -412,4 +412,7 @@ margin-bottom: 18px;
         width: calc(100vw - 100px); 
         scroll-snap-align: center; 
     } 
+    .carousel-item-2{
+        width: 340px;
+    }
 }
