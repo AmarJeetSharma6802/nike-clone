@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/src/NewFeatured/
+# https://res.cloudinary.com/futurecoder/image/upload/v1736412587/uploads/q904f81bdlf6bvdgd3li.png
