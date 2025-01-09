@@ -4,7 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, }
 import Layout from './Layout';
 import Home from './component/Home/Home';
 import Men from './component/men/Men';
-import NewFeatured from './component/NewFeatured/NewFeatured.Jsx';
+import NewFeatured from './component/NewFeatured/NewFeatured.jsx';
 import SelectNewfeauted from './component/selectImage/SelectNewfeauted';
 import Women from './component/Women/Women';
 import Kids from './component/Kids/Kids';
