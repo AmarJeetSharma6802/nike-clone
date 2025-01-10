@@ -1,13 +1,16 @@
 import React,{useEffect} from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import '../Home/home.css'
 import HomeCarousel from './HomeCaroucel'
 import HomeTrend from './HomeTrend'
 import HomeMember from './HomeMember'
 
 function Home() {
+    const navigate = useNavigate()
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+
   return (
     <div>
         <div className="homepage">
@@ -39,19 +42,19 @@ function Home() {
             <div className="featuredtext">Featured</div>
                 <div className="img-three-anchor">
                     <div className="img-three-anchor-first-img">
-                       <a href="" className='anchor-first-img'> <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_582,c_limit/b6bc2a7d-d4ab-47f6-a709-cee396c5041f/image.jpg" alt="" id='img-three-anchor-first-img' />
+                       <Link to="/women" className='anchor-first-img'> <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_582,c_limit/b6bc2a7d-d4ab-47f6-a709-cee396c5041f/image.jpg" alt="" id='img-three-anchor-first-img' />
                        <p className='img-three-anchor-first-img-para'>Bra & Leggings</p>
-                       </a>
+                       </Link>
                     </div>
                     <div className="img-three-anchor-first-img">
-                       <a href="" className='anchor-first-img'> <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_582,c_limit/2fef0730-64d1-417f-98f6-d0c5eb37d585/image.jpg" alt="" id='img-three-anchor-first-img' />
+                       <Link to="/men" className='anchor-first-img'> <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_582,c_limit/2fef0730-64d1-417f-98f6-d0c5eb37d585/image.jpg" alt="" id='img-three-anchor-first-img' />
                        <p className='img-three-anchor-first-img-para'>The Air Max 1</p>
-                       </a>
+                       </Link>
                     </div>
                     <div className="img-three-anchor-first-img">
-                       <a href="" className='anchor-first-img'> <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_582,c_limit/3d09add4-6b8b-428d-9625-409a248421fb/nike-just-do-it.jpg" alt="" id='img-three-anchor-first-img' />
+                       <Link to="/sales" className='anchor-first-img'> <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_582,c_limit/3d09add4-6b8b-428d-9625-409a248421fb/nike-just-do-it.jpg" alt="" id='img-three-anchor-first-img' />
                        <p className='img-three-anchor-first-img-para'>Vomero 5</p>
-                       </a>
+                       </Link>
                     </div>
                 </div>
             </div>
