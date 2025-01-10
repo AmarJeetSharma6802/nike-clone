@@ -14,6 +14,7 @@ import SelectedWomenImg from './component/selectImage/SelectedWomenImg';
 import Cart from './component/Reducer/Cart';
 import SelectedSales from './component/selectImage/SelectedSales';
 import SelectedKids from './component/selectImage/SelectedKids';
+import SelectedHomeImg from './component/selectImage/SelectedHomeImg.jsx';
 
 function App() {
   useEffect(()=>{
@@ -38,6 +39,7 @@ function App() {
         <Route path= "/selectWomenImage/:id/:title" element={<SelectedWomenImg />}/>
         <Route path= "/selectSalesImage/:id/:title" element={<SelectedSales />}/>
         <Route path= "/selectKidsImage/:id/:title" element={<SelectedKids />}/>
+        <Route path= "/selectHomeImage/:id" element={<SelectedHomeImg />}/>
         <Route path= "/cart" element={<Cart />}/>
       </Route>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import rightArrow from "../../assets/right-arrow.png"
 import leftArrow from "../../assets/left-arrow.png"
+import { Link } from 'react-router-dom';
 
 function HomeCarousel() {
     const items = [
@@ -61,7 +62,7 @@ function HomeCarousel() {
             <div className="carousel">
                 {items.map((item, index) => (
                     <div key={index} className="carousel-item">
-                       <a href=""> <img src={item.img} alt={`Item ${item.id}`} className="carousel-image" /></a>
+                       <Link to={`/selectHomeImage/${item.id}/`}> <img src={item.img} alt={`Item ${item.id}`} className="carousel-image" /></Link>
                     </div>
                 ))}
             </div>
