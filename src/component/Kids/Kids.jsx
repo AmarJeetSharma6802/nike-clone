@@ -249,7 +249,7 @@ const GalleryItem = ({ img, title, price, offer, id, color,topTitle }) => {
             />
            <GalleryItem
               id={7}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/36a15354-718b-4392-b50d-5ce64209e4b5/K+NK+RPL+CROSSOVER+JKT.png"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0ebadb85-0c34-42d3-9774-964824945768/K+NSW+CTY+UTLITY+EO+TF+WZ+TOP.png"
               topTitle="Bestseller"
               title="Nike Crossover"
               offer="Older Kids Repel"
@@ -258,9 +258,9 @@ const GalleryItem = ({ img, title, price, offer, id, color,topTitle }) => {
             />
            <GalleryItem
               id={8}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1688ef61-062a-463a-9533-4a612419117c/K+NSW+CLUB+FLC+CREW+LS+LBR.png"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e629549d-8c53-4a54-b951-99893a497564/K+ACG+TF+RVSBL+VEST.png"
               topTitle="Coming Soon"
-              title="Nike Drunk Low Retro "
+              title="Nike ACG "
               offer="Older kids Swearshirt"
               color="1 color"
               price="MRP : ₹ 1 995.00"
@@ -270,9 +270,9 @@ const GalleryItem = ({ img, title, price, offer, id, color,topTitle }) => {
               img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/04a0a318-9694-45ec-9134-88d233f3ecd5/K+NSW+TEE+JDI+HBR+GFX+FILL.png"
               topTitle="Just In"
               title="Nike Sportswear"
-              offer="Men's Shoes"
+              offer="Older Kids' T-Shirt"
               color="1 color"
-              price="MRP : ₹ 11 495.00"
+              price="MRP : ₹  495.00"
             />
            <GalleryItem
               id={10}

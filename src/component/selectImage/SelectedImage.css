@@ -190,7 +190,7 @@ gap: 10px;
 
 @media (min-width: 340px) and (max-width: 420px) {
   .flexImage {
-    max-width: 75vw;
+    max-width: 80vw;
     padding-top: 1.5rem;
     margin: auto;
   }
