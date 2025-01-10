@@ -49,6 +49,8 @@ const CloseBtn=()=>{
 setFillterActive(false)
 }
 useEffect(() => {
+  window.scrollTo(0, 0);
+
     // Set the document title
     document.title = "Nike Women's clothing ";
 
@@ -56,6 +58,7 @@ useEffect(() => {
       document.title = "Nike clone";
     };
   }, []);
+   
 
 
 const GalleryItem = ({ img, title, price, offer, id, color,topTitle }) => {

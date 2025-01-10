@@ -49,7 +49,7 @@ const CloseBtn=()=>{
 setFillterActive(false)
 }
 useEffect(() => {
-  // window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
 
     document.title = "Nike Men's clothing and shoes";
 

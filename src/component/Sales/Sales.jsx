@@ -49,6 +49,8 @@ const CloseBtn=()=>{
 setFillterActive(false)
 }
 useEffect(() => {
+  window.scrollTo(0, 0);
+
     // Set the document title
     document.title = "Nike Men's clothing and shoes";
 
