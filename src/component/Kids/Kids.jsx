@@ -84,9 +84,9 @@ const GalleryItem = ({ img, title, price, offer, id, color,topTitle }) => {
             <p>Tops & T-shirts</p>
           </div>
           <div className="fillter-btnshortBy">
-            <div className="fillter" onClick={filterBtn}><span>Fillter</span><i class="fa-solid fa-sliders"></i></div>
+            <div className="fillter" onClick={filterBtn}><span className='filter-span'>Fillter</span><i class="fa-solid fa-sliders"></i></div>
             <div className="shortBy-btn">
-              <div className="shortBy" onClick={shortByBtn}>Short By <img src={downArrow} alt="" id='downarrow-short'/></div>
+              <div className="shortBy" onClick={shortByBtn}><span className='short-span'> Short By</span><img src={downArrow} alt="" id='downarrow-short'/></div>
               <ul className="short-ul" ref={priceRef}>
                 <li className="short-li">Featured</li>
                 <li className="short-li">Newest</li>
