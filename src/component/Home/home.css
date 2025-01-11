@@ -158,7 +158,7 @@ margin-bottom: 18px;
 .trend{
     max-width: 92vw;
     margin: auto;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin-top: 4rem;
 }
 .trend-p{
