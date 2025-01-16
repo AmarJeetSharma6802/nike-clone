@@ -197,57 +197,57 @@ const GalleryItem = ({ img, title, price, offer, id, color,topTitle }) => {
            <div className="gallery-grid">
            <GalleryItem
               id={1}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b1f2fa39-1018-4d4d-bc4b-5cbc12bd97cd/M+ZOOM+GP+CHALLENGE+PRO+HC+PRM.png"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fa5d7ecf-1208-4a4f-8b5f-46f1b888e4ad/AIR+FORCE+1+%2707+LV8.png"
               topTitle="Bestseller"
-              title="Nike GP Premium Shoes"
+              title="Nike Air Force 1'17 LV8"
               offer="Men's shoes"
               color="1 color"
-              price="MRP : ₹ 8 295.00"
+              price="MRP : ₹ 10 295.00"
             />
            <GalleryItem
               id={2}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f76f73e-2578-4d62-abab-c5563ea4f78c/NIKE+DUNK+LOW+RETRO.png"
-              topTitle="Coming Soon"
-              title="Nike Drunk Low Retro "
-              offer="Men's shoes"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da8cce5e-470a-4935-b8c8-1a8c9d402e8a/W+AIR+FORCE+1+%2707+NEXT+NATURE.png"
+              topTitle="Sustainable Materials"
+              title="Nike Air Force 1 '07 Next Nature"
+              offer="Women's shoes"
               color="1 color"
-              price="MRP : ₹ 8 995.00"
+              price="MRP : ₹ 7 787.00"
             />
            <GalleryItem
               id={3}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dab259aa-dbc3-4c18-85e8-38dababbed92/NIKE+DUNK+LOW+RETRO.png"
-              topTitle="Coming Soon"
-              title="Nike Drunk Low Retro"
-              offer="Men's Shoes"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0efd4ef4-eb8b-4375-902c-c78791d47d80/NIKE+JAM.png"
+              topTitle="Sustainable Materials"
+              title="Nike JAM"
+              offer="Women's Shoes"
               color="1 color"
-              price="MRP : ₹ 11 495.00"
+              price="MRP : ₹  10 257.00"
             />
            <GalleryItem
               id={4}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4b24bc11-4ea0-4ee5-8d16-aa58b518475b/AIR+FORCE+1+%2707+FRESH.png"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c279f13e-cf3e-4738-8aa3-5b6576b5f51a/NIKE+AIR+MAX+90+LV8.png"
               topTitle="Bestseller"
-              title="Nike Air Force 1'07 Fresh"
-              offer="Men's Shoes"
+              title="Nike Air Max 90 LV8"
+              offer="Women's Shoes"
               color="1 color"
               price="MRP : ₹ 11 295.00"
             />
            <GalleryItem
               id={5}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/05442d82-fde1-401f-a24e-33409f65c375/VAPOR+16+CLUB+FG%2FMG.png"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57645e9b-581c-4e5f-9b07-783d2e4682db/W+NIKE+AIR+MAX+1.png"
               topTitle="Sustainable Materials"
-              title="Nike Mercurail Vapor 16 Club"
-              offer="MG Low-Top FootBall Boot"
+              title="Nike Air Max 1"
+              offer="Women's shoes"
               color="3 color"
-              price="MRP : ₹ 4 995.00"
+              price="MRP : ₹ 12 157.00"
             />
            <GalleryItem
               id={6}
-              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec2b2eb3-a34f-4411-a6d9-fc218ef848ef/LEGEND+10+CLUB+FG%2FMG.png"
+              img="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d995ef9b-0fb1-402d-b933-51ff03fe735a/NIKE+JAM.png"
               topTitle="Sustainable Materials"
-              title="Nike Timepo Legend 10 Club"
-              offer="Women's Oversized V-Neck Cropped Top"
+              title="Nike JAM"
+              offer="Women's Shoes"
               color="1 color"
-              price="MRP : ₹ 4 295.00"
+              price="MRP : ₹ 10 257.00"
             />
            <GalleryItem
               id={7}
