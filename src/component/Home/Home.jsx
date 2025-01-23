@@ -22,7 +22,7 @@ function Home() {
             <div className="homapage-main-img">
                 <div className="main-img-shoes">
                    <a href=""className='mainPage-img-anchor'>
-                   <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/24c4cdf6-9cdf-4aa6-8c9a-89dbd8b866d0/nike-just-do-it.jpg" alt="" id="shoesimg" />
+                   <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1719,c_limit/5089b234-7766-4d9d-84ca-ea6018c4d4bb/nike-just-do-it.png" alt="" id="shoesimg" />
                    <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_336,c_limit/f2df8a9e-c92c-4d97-811e-22ddfb29ee2a/nike-just-do-it.jpg" alt="" id="shoesimg2" />
                    
                    <div className="LeBron">
