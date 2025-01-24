@@ -15,7 +15,7 @@ function SelectedHomeImg() {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    document.title = "Nike Selecting kids Image";
+    document.title = selectedItem.title;
 
     return () => {
       document.title = "Nike Clone";
