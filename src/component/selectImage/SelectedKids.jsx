@@ -160,47 +160,7 @@ function SelectedKids() {
        
       ],
     },
-    {
-      id: 10,
-      title:"Nike Sportswear Windrunner",
-      offer:"Womens's Slim Mid-Rise Knit Trousers",
-      price:" 4 095.00",
-      images: [
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f0167150-cf7d-406e-b865-348fddd931a2/AS+W+NSW+NK+WR+MR+POLY+KNIT+PN.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd5f2f29-271e-4e15-8c30-65cc09a98d11/AS+W+NSW+NK+WR+MR+POLY+KNIT+PN.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/79c8f36d-dd39-4173-9e56-34b4f1e9af69/AS+W+NSW+NK+WR+MR+POLY+KNIT+PN.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7eecc3b1-7c61-4c2f-ad51-e1e8d072a3a0/AS+W+NSW+NK+WR+MR+POLY+KNIT+PN.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9113ac42-b369-4cee-8be5-4ea92dfe42fc/AS+W+NSW+NK+WR+MR+POLY+KNIT+PN.png",
-        
-      ],
-    },
-    {
-      id: 11,
-      title:"Nike Sportswear Phoenix Fleece",
-      offer:"Women's Oversized V-Neck Cropped Top",
-      price:"MR 295.00",
-      images: [
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b57e6ec4-7568-41a5-92d9-942613a40624/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f5eb9143-5dcf-42bc-9f51-6e822f275d44/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8a7cfd6d-0645-44c0-96d6-1139ebcd5e55/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fce19141-f090-4f41-83e1-5188b59b4b3e/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/90e6c104-57db-4ed0-8997-4a4896eb3fce/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-      ]
-    },
-    {
-      id: 12,
-      title:"Nike Sportswear Phoenix Fleece",
-      offer:"Women's Oversized V-Neck Cropped Top",
-      price:" 4 295.00",
-      images: [
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/18f594d9-79b0-4326-8508-eaa3fda96ef8/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0efe3350-f36c-411b-b9d1-fce6c81d8899/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ebac5ae7-30af-4da1-b99d-69f955806e89/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/007ce66d-b148-4bdb-8d59-7ad3d54801c3/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c41dc26-b698-4ece-8457-b891fe02607e/AS+W+NSW+PHNX+FLC+CROP+VNECK+O.png",
-       
-      ],
-    },
+   
   ];
 
   const selectedItem = Sideitem.find((item) => item.id === parseInt(id));
