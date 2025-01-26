@@ -106,7 +106,7 @@ function Header(){
                 <li className="feature-li"><Link to="/men" className="feature-a" onClick={handleNavLinkClick}>Men</Link></li>
                 <li className="feature-li"><Link to="/women" className="feature-a" onClick={handleNavLinkClick}>Women</Link></li>
                 <li className="feature-li"><Link to="/kids" className="feature-a" onClick={handleNavLinkClick}>Kids</Link></li>
-                <li className="feature-li"><a href="" className="feature-a" onClick={handleNavLinkClick}>Sales</a></li>
+                <li className="feature-li"><Link to="/sales" className="feature-a" onClick={handleNavLinkClick}>Sales</Link></li>
                 <li className="feature-li"><a href="" className="feature-a" onClick={handleNavLinkClick}>SNKRS</a></li>
                 
             </ul>
