@@ -15,7 +15,6 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-src/component/selectImage/
 
 .idea
 .DS_Store
