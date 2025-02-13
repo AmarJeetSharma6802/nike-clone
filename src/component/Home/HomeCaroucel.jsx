@@ -62,7 +62,7 @@ function HomeCarousel() {
             <div className="carousel">
                 {items.map((item, index) => (
                     <div key={index} className="carousel-item">
-                       <Link to={`/selectHomeImage/${item.id}`}> <img src={item.img} alt={`Item ${item.id}`} className="carousel-image" /></Link>
+                       <Link to={`/selectHomeImage/${item.id}/`}> <img src={item.img} alt={`Item ${item.id}`} className="carousel-image" /></Link>
                     </div>
                 ))}
             </div>
